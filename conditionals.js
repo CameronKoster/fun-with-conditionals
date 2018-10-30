@@ -61,14 +61,14 @@
 
 
 //5. Write a function that returns true if a dish is yours and is dirty, or false if one of the statements is false
-let myDish = {
-  dirty: true,
-  mine: true
-}
-function washDish(dish) {
-  return dish.dirty && dish.mine
-}
-console.log(washDish(myDish))
+// let myDish = {
+//   dirty: true,
+//   mine: true
+// }
+// function washDish(dish) {
+//   return dish.dirty && dish.mine
+// }
+// console.log(washDish(myDish))
 
 
 

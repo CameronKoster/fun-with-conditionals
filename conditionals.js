@@ -1,4 +1,3 @@
-
 //1. Write a function that takes 2 parameters and displays the larger// function dispNum(num1, num2) {
 //   if (num1 > num2) {
 //     return (num1)
@@ -10,6 +9,7 @@
 //   }
 // }
 // console.log(dispNum(8, 8))
+
 
 // //2. Write a function that will take in a number (1-100) return the letter grade for the student score
 // function grade(num) {
@@ -45,3 +45,30 @@
 //   }
 // }
 // console.log(temp(101))
+
+
+//4. Write a function that takes in a car object, if it is not moving then return true
+// let myCar = {
+//   moving: false
+// }
+// function isStopped(car) {
+//   if (car.moving) {
+//     return false
+//   }
+//   return true
+// }
+// console.log(isStopped(myCar))
+
+
+//5. Write a function that returns true if a dish is yours and is dirty, or false if one of the statements is false
+let myDish = {
+  dirty: true,
+  mine: true
+}
+function washDish(dish) {
+  return dish.dirty && dish.mine
+}
+console.log(washDish(myDish))
+
+
+
